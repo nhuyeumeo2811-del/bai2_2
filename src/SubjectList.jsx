@@ -1,9 +1,10 @@
+import { useState } from 'react'
 import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
 import './SubjectList.css'
 
 function SubjectList(props){
     return(
-        <>
         <div className="subject-container">
             <h2 className="subject-title">Danh Sách Môn Học</h2>
             <ul className="subject-list">
@@ -14,7 +15,6 @@ function SubjectList(props){
                 ))}
             </ul>
         </div>
-        </>
     );
 }
 export default SubjectList;
